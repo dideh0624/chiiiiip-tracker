@@ -269,6 +269,45 @@ border:1px solid #F4CFE0;
   font-size:13px;
   color:#A0A0B5;
 } 
+@media (max-width: 768px){
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .card{
+    width:100%;
+  }
+
+  .hero h1{
+    font-size:42px;
+  }
+
+  body{
+    padding:20px;
+  }
+
+  .filter-tabs{
+    flex-wrap:wrap;
+  }
+}
+
+.notice-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:16px;
+}
+
+.notice-header h2{
+  margin:0;
+}
+
+.update-time{
+  font-size:13px;
+  color:#A0A0B5;
+}
+
 @media (max-width:768px){
 
   .notice-header{
@@ -277,5 +316,5 @@ border:1px solid #F4CFE0;
     gap:6px;
   }
 
-}  
+}
 ]
