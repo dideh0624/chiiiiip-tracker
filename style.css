@@ -254,4 +254,28 @@ border:1px solid #F4CFE0;
   font-size:14px;
   line-height:1.7;
 }
+ .notice-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:16px;
+}
+
+.notice-header h2{
+  margin:0;
+}
+
+.update-time{
+  font-size:13px;
+  color:#A0A0B5;
+} 
+@media (max-width:768px){
+
+  .notice-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:6px;
+  }
+
+}  
 ]
