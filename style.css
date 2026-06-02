@@ -224,6 +224,22 @@ border:1px solid #F4CFE0;
   color:white;
   border-color:#8C7AE6;
 }
+.notice-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:16px;
+}
+
+.notice-header h2{
+  margin:0;
+}
+
+.update-time{
+  font-size:13px;
+  color:#A0A0B5;
+}
+
 @media (max-width: 768px){
 
   .grid{
@@ -245,22 +261,6 @@ border:1px solid #F4CFE0;
   .filter-tabs{
     flex-wrap:wrap;
   }
-.notice-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:16px;
-}
-
-.notice-header h2{
-  margin:0;
-}
-
-.update-time{
-  font-size:13px;
-  color:#A0A0B5;
-}
-@media (max-width:768px){
 
   .notice-header{
     flex-direction:column;
