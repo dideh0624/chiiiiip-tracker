@@ -246,10 +246,12 @@ border:1px solid #F4CFE0;
     flex-wrap:wrap;
   }
 
-.update-box{
-  margin: 0 0 24px;
+.notice-update{
+  margin-top:18px;
+  padding-top:14px;
+  border-top:1px solid #ECEBF2;
   color:#8B8BA3;
   font-size:14px;
-  line-height:1.8;
+  line-height:1.7;
 }
 ]
