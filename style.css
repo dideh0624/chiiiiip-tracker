@@ -246,5 +246,10 @@ border:1px solid #F4CFE0;
     flex-wrap:wrap;
   }
 
+.update-box{
+  margin: 0 0 24px;
+  color:#8B8BA3;
+  font-size:14px;
+  line-height:1.8;
 }
 ]
