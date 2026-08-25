@@ -686,6 +686,24 @@ function filterCards(status){
   });
 
 }
+  <script>
+  const shippingToggle = document.querySelector(".shipping-toggle");
+  const shippingContent = document.querySelector(".shipping-content");
+  const shippingIcon = document.querySelector(".shipping-icon");
+  const shippingHint = document.querySelector(".shipping-hint");
+
+  shippingToggle.addEventListener("click", () => {
+    shippingContent.classList.toggle("open");
+
+    const isOpen = shippingContent.classList.contains("open");
+
+    shippingIcon.textContent = isOpen ? "−" : "＋";
+
+    shippingHint.textContent = isOpen
+      ? "點擊收起寄送內容"
+      : "點擊查看本次預計寄送內容";
+  });
+</script>
 </script>
 </body>
 </html>
