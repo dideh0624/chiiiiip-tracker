@@ -269,3 +269,90 @@ border:1px solid #F4CFE0;
   }
 
 }
+.shipping-list{
+  background:white;
+  border-radius:24px;
+  margin-bottom:28px;
+  box-shadow:0 10px 30px rgba(140,122,230,0.12);
+  overflow:hidden;
+}
+
+.shipping-toggle{
+  width:100%;
+  border:none;
+  background:none;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:20px 24px;
+
+  cursor:pointer;
+  text-align:left;
+  font-family:inherit;
+  color:#2D2D3A;
+}
+
+.shipping-toggle h2{
+  font-size:20px;
+  margin:0;
+}
+
+.shipping-hint{
+  font-size:13px;
+  color:#A0A0B5;
+  margin-top:5px;
+}
+
+.shipping-icon{
+  font-size:26px;
+  color:#8C7AE6;
+  font-weight:300;
+}
+
+.shipping-content{
+  display:none;
+  padding:0 24px 20px;
+  border-top:1px solid #F0ECFF;
+}
+
+.shipping-content.open{
+  display:block;
+}
+
+.shipping-item{
+  display:flex;
+  gap:16px;
+  padding:13px 0;
+  border-bottom:1px solid #F0ECFF;
+}
+
+.shipping-item strong{
+  min-width:120px;
+  color:#7C5CE0;
+}
+
+.shipping-item span{
+  color:#6B7280;
+  font-size:14px;
+}
+
+.shipping-note{
+  margin-top:14px;
+  font-size:12px;
+  color:#A0A0B5;
+}
+
+@media (max-width: 768px){
+
+  .shipping-item{
+    flex-direction:column;
+    gap:4px;
+  }
+
+  .shipping-item strong{
+    min-width:0;
+  }
+
+}
